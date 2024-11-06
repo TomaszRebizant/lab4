@@ -1,0 +1,13 @@
+zastanowić się które wartości powinny być inicjalizowane poprzez publiczny akcesor, które poprzez wydzielony setter, a które poprzez konstruktor
+zastanowić się które pola i metody powinny być publiczne, a które chronione lub prywatne
+zastanowić się jak pozbyć się niepotrzebnego wymuszenia wywołania `prepareGame()` przed wywołaniem metody `run()`
+
+kostka powinna mieć definiowaną raz liczbę ścian (załóżmy, że maksymalnie do 20) DONE
+
+gracz powinien mieć definiowane raz imię oraz zdefiniowaną wewnętrznie liczbę punktów życia równą 50
+gra powinna mieć możliwość jednokrotnego dodania jednej kostki oraz zamkniętego zestawu graczy; po rozpoczęciu gry już nikt nie powinien móc do niej dołączyć ani zmienić zasad
+gra powinna mieć możliwość jednokrotnego, ale opcjonalnego ustawienia maksymalnej liczby pól; jeżeli nie zostałaby ona ustawiona, wówczas gra powinna przyjąć domyślnie 100 pól
+gra powinna mieć możliwość jednokrotnego, ale opcjonalnego ustawienia maksymalnej liczby tur; jeżeli nie zostałaby ona ustawiona, gra toczyłaby się do osiągnięcia przez pierwszego gracza ostatniego pola; w przeciwnym wypadku wygrałby gracz, który jako pierwszy dotarł najdalej po zakończeniu ostatniej tury
+gra powinna implementować dodatkową zasadę: jeżeli gracz stanie na polu podzielonym przez 7, powinien rzucić kostką i stracić tyle punktów życia, ile wypadło oczek; gracz, którego liczba punktów życia spadnie do zera przegrywa
+
+jeżeli gracz pojawi się na polu okupowanym przez innych graczy, wówczas powinien móc otrzymać obrażenia od pozostałych na podstawie dodatkowych rzutów kostką
