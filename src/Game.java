@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 
 class Game {
-    public HashMap<Integer, Integer> fields = new HashMap<Integer, Integer>();
+    private HashMap<Integer, Integer> fields = new HashMap<Integer, Integer>();
     private ArrayList<Player> players = new ArrayList<Player>();
     private Dice dice;
     private int maxTurns = 0;

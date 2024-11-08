@@ -2,7 +2,7 @@ zastanowić się które wartości powinny być inicjalizowane poprzez publiczny 
 zastanowić się które pola i metody powinny być publiczne, a które chronione lub prywatne
 zastanowić się jak pozbyć się niepotrzebnego wymuszenia wywołania `prepareGame()` przed wywołaniem metody `run()`
 
-kostka powinna mieć definiowaną raz liczbę ścian (załóżmy, że maksymalnie do 20) DONE
+kostka powinna mieć definiowaną raz liczbę ścian (załóżmy, że maksymalnie do 20)
 
 gracz powinien mieć definiowane raz imię oraz zdefiniowaną wewnętrznie liczbę punktów życia równą 50
 gra powinna mieć możliwość jednokrotnego dodania jednej kostki oraz zamkniętego zestawu graczy; po rozpoczęciu gry już nikt nie powinien móc do niej dołączyć ani zmienić zasad

@@ -1,14 +1,14 @@
 import java.util.Random;
 
 class Dice {
-    private int walls;
+    private int walls = 0;
 
     public Dice() {
     setWalls();
     }
 
     public int roll() {
-        return new Random().nextInt(6) + 1;
+        return new Random().nextInt(walls) + 1;
     }
     private void setWalls(){
         System.out.println("How many walls should the dice have?");
